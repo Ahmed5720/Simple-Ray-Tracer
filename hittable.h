@@ -6,7 +6,7 @@
 #define RAYTRACER_HITTABLE_H
 
 #include "ray.h"
-
+#include "interval.h"
 class hit_record{
 
 public:
@@ -32,7 +32,7 @@ class hittable {
 public:
     virtual ~hittable() = default;
     // const = 0, pure virtual, needs implementation
-    virtual bool hit(const ray& r, double ray_tmin, double ray_tmax, hit_record& rec) const = 0;
+    virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0;
 
 };
 #endif //RAYTRACER_HITTABLE_H

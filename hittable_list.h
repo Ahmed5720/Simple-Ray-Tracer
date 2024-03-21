@@ -5,9 +5,11 @@
 #ifndef RAYTRACER_HITTABLE_LIST_H
 #define RAYTRACER_HITTABLE_LIST_H
 #include "hittable.h"
+#include "interval.h"
 
 #include <memory>
 #include <vector>
+
 
 using namespace std;
 
@@ -28,14 +30,14 @@ public:
         hittable_objects.push_back(obj);
     }
 
-    bool hit(const ray& r, double ray_tmin, double ray_tmax, hit_record& rec) const override {
+    bool hit(const ray& r, interval ray_t, hit_record& rec) const override {
         hit_record tmp;
         bool hit_any = false;
-        auto closest_hit = ray_tmax;
+        auto closest_hit = ray_t.max;
 
         for (const auto& object : hittable_objects)
         {
-            if(object->hit(r, ray_tmin, closest_hit, tmp))
+            if(object->hit(r, interval(ray_t.min, closest_hit), tmp))
             {
                 hit_any = true;
                 closest_hit = tmp.t;
