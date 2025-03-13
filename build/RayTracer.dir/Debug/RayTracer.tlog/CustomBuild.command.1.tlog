@@ -1,0 +1,10 @@
+^C:\USERS\15854\DOCUMENTS\GITHUB\SIMPLE-RAY-TRACER\CMAKELISTS.TXT
+setlocal
+C:\Users\15854\Downloads\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5\mingw64\bin\cmake.exe -SC:/Users/15854/Documents/GitHub/Simple-Ray-Tracer -BC:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build --check-stamp-file C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/CMakeLists.txt
+C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/3.28.2/CMakeCCompiler.cmake
+C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/3.28.2/CMakeCXXCompiler.cmake
+C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/3.28.2/CMakeRCCompiler.cmake
+C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/3.28.2/CMakeSystem.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake

@@ -6,12 +6,12 @@
 #define RAYTRACER_SPHERE_H
 
 #include "hittable.h"
-#include "vec3.h"
-#include "interval.h"
+
 // inherits from hittable
 class sphere : public hittable {
     public:
-    sphere(point3 _center, double _radius) : center(_center), radius(_radius) {}
+    sphere(const point3& center, double _radius, shared_ptr<material> mat) 
+        : center(center), radius(std::fmax(0, _radius)), mat(mat) {}
 
     bool hit(const ray& r, interval ray_t, hit_record& rec) const override {
         vec3 ac = r.origin() - center;
@@ -42,13 +42,15 @@ class sphere : public hittable {
         // for a sphere we can obtain a normal by getting the hitpoint - the center, we can normalize by dividing by r
         vec3 outnorm = (rec.p - center) / radius;
         rec.set_normal_dir(r,outnorm);
+        rec.mat = mat;
         return true;
 
     }
 
-private:
-    point3 center;
-    double radius;
+    private:
+        point3 center;
+        double radius;
+        shared_ptr<material> mat;
 };
 
 #endif //RAYTRACER_SPHERE_H
