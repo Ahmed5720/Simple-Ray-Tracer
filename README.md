@@ -1,8 +1,8 @@
 # Ray Tracer
 
 
-![building blocks 1: Raycasting and ray-sphere intersection](./raytracediagram1.jpg)
-![building blocks 2: anti-aliasing, diffuse and specular materials and BVH acceleration](./raytracediagram2.jpg)
+![building blocks 1: Raycasting and ray-sphere intersection](./raytracediagram2.jpg)
+![building blocks 2: anti-aliasing, diffuse and specular materials and BVH acceleration](./raytracediagram1.jpg)
 
 This project is a minimal raytracer written from scratch in C++ and then ported to Cuda, focusing on ray-sphere intersection, shading models, and acceleration structures using a Bounding Volume Hierarchy (BVH).
 The raytracer simulates how rays of light interact with a 3D scene. For each pixel `(i, j)` in the viewport, we cast `n` rays from the camera (origin). The direction of each ray is determined by the pixel's position, offset with a small random displacement to simulate anti-aliasing:
