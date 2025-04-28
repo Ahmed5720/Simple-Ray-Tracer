@@ -13,9 +13,12 @@ public:
 
     interval() : min(infinity), max(-infinity) {}
 
-    interval(double _min,  double _max ): min(_min), max(_max)
-    {
+    interval(double _min,  double _max ): min(_min), max(_max) { }
 
+    interval(const interval& a, const interval& b) {
+        // Create the interval tightly enclosing the two input intervals.
+        min = a.min <= b.min ? a.min : b.min;
+        max = a.max >= b.max ? a.max : b.max;
     }
 
     bool contains(double x) const
@@ -27,7 +30,9 @@ public:
         return min < x && x < max;
     }
 
-
+    double size() const {
+        return max-min;
+    }
     double clamp(double x) const
     {
         if(x < min)
@@ -40,8 +45,9 @@ public:
 
 };
 
-const static interval empty   (+infinity, -infinity);
-const static interval universe(-infinity, +infinity);
 
+inline const interval interval::empty(+infinity, -infinity);
+inline const interval interval::universe(-infinity, +infinity);
 
 #endif //RAYTRACER_INTERVAL_H
+

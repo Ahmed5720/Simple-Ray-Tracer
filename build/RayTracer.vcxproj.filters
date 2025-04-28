@@ -4,6 +4,24 @@
     <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\Color.h">
@@ -28,6 +46,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\15854\Documents\GitHub\Simple-Ray-Tracer\material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

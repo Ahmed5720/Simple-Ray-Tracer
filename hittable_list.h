@@ -6,7 +6,7 @@
 #define RAYTRACER_HITTABLE_LIST_H
 #include "hittable.h"
 #include "interval.h"
-
+#include "aabb.h"
 #include <memory>
 #include <vector>
 
@@ -15,7 +15,7 @@ using namespace std;
 
 class hittable_list : public hittable {
 public:
-    vector<shared_ptr<hittable>> hittable_objects;
+    vector<shared_ptr<hittable>> objects;
 
     hittable_list(){
 
@@ -27,7 +27,8 @@ public:
 
     void add(shared_ptr<hittable> obj)
     {
-        hittable_objects.push_back(obj);
+        objects.push_back(obj);
+        bbox = aabb(bbox, obj->bounding_box());
     }
 
     bool hit(const ray& r, interval ray_t, hit_record& rec) const override {
@@ -35,7 +36,7 @@ public:
         bool hit_any = false;
         auto closest_hit = ray_t.max;
 
-        for (const auto& object : hittable_objects)
+        for (const auto& object : objects)
         {
             if(object->hit(r, interval(ray_t.min, closest_hit), tmp))
             {
@@ -50,6 +51,11 @@ public:
 
 
     }
+
+    aabb bounding_box() const override { return bbox;}
+
+private:
+    aabb bbox;
 
 };
 #endif //RAYTRACER_HITTABLE_LIST_H

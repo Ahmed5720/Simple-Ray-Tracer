@@ -229,3 +229,223 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-tsvfdw"
+      binary: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-tsvfdw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-tsvfdw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_58080.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 4/28/2025 2:42:13 PM.
+        
+        Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\cmTC_58080.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_58080.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\Debug\\".
+          Creating directory "cmTC_58080.dir\\Debug\\cmTC_58080.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_58080.dir\\Debug\\cmTC_58080.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_58080.dir\\Debug\\cmTC_58080.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_58080.dir\\Debug\\\\" /Fd"cmTC_58080.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_58080.dir\\Debug\\\\" /Fd"cmTC_58080.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\Debug\\cmTC_58080.exe" /INCREMENTAL /ILK:"cmTC_58080.dir\\Debug\\cmTC_58080.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-tsvfdw/Debug/cmTC_58080.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-tsvfdw/Debug/cmTC_58080.lib" /MACHINE:X64  /machine:x64 cmTC_58080.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_58080.vcxproj -> C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\Debug\\cmTC_58080.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_58080.dir\\Debug\\cmTC_58080.tlog\\unsuccessfulbuild".
+          Touching "cmTC_58080.dir\\Debug\\cmTC_58080.tlog\\cmTC_58080.lastbuildstate".
+        Done Building Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsvfdw\\cmTC_58080.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-vcn9og"
+      binary: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-vcn9og"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-vcn9og'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_00895.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 4/28/2025 2:42:14 PM.
+        
+        Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\cmTC_00895.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_00895.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\Debug\\".
+          Creating directory "cmTC_00895.dir\\Debug\\cmTC_00895.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_00895.dir\\Debug\\cmTC_00895.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_00895.dir\\Debug\\cmTC_00895.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_00895.dir\\Debug\\\\" /Fd"cmTC_00895.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_00895.dir\\Debug\\\\" /Fd"cmTC_00895.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\Debug\\cmTC_00895.exe" /INCREMENTAL /ILK:"cmTC_00895.dir\\Debug\\cmTC_00895.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-vcn9og/Debug/cmTC_00895.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-vcn9og/Debug/cmTC_00895.lib" /MACHINE:X64  /machine:x64 cmTC_00895.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_00895.vcxproj -> C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\Debug\\cmTC_00895.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_00895.dir\\Debug\\cmTC_00895.tlog\\unsuccessfulbuild".
+          Touching "cmTC_00895.dir\\Debug\\cmTC_00895.tlog\\cmTC_00895.lastbuildstate".
+        Done Building Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcn9og\\cmTC_00895.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-lx7op4"
+      binary: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-lx7op4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-lx7op4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b3a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 4/28/2025 2:42:15 PM.
+        
+        Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\cmTC_1b3a9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1b3a9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\Debug\\".
+          Creating directory "cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1b3a9.dir\\Debug\\\\" /Fd"cmTC_1b3a9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1b3a9.dir\\Debug\\\\" /Fd"cmTC_1b3a9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\Debug\\cmTC_1b3a9.exe" /INCREMENTAL /ILK:"cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-lx7op4/Debug/cmTC_1b3a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-lx7op4/Debug/cmTC_1b3a9.lib" /MACHINE:X64  /machine:x64 cmTC_1b3a9.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_1b3a9.vcxproj -> C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\Debug\\cmTC_1b3a9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1b3a9.dir\\Debug\\cmTC_1b3a9.tlog\\cmTC_1b3a9.lastbuildstate".
+        Done Building Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lx7op4\\cmTC_1b3a9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-mxy4fy"
+      binary: "C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-mxy4fy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-mxy4fy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0b3f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 4/28/2025 2:42:16 PM.
+        
+        Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\cmTC_0b3f5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0b3f5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\Debug\\".
+          Creating directory "cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_0b3f5.dir\\Debug\\\\" /Fd"cmTC_0b3f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_0b3f5.dir\\Debug\\\\" /Fd"cmTC_0b3f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\Debug\\cmTC_0b3f5.exe" /INCREMENTAL /ILK:"cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-mxy4fy/Debug/cmTC_0b3f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/15854/Documents/GitHub/Simple-Ray-Tracer/build/CMakeFiles/CMakeScratch/TryCompile-mxy4fy/Debug/cmTC_0b3f5.lib" /MACHINE:X64  /machine:x64 cmTC_0b3f5.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_0b3f5.vcxproj -> C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\Debug\\cmTC_0b3f5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0b3f5.dir\\Debug\\cmTC_0b3f5.tlog\\cmTC_0b3f5.lastbuildstate".
+        Done Building Project "C:\\Users\\15854\\Documents\\GitHub\\Simple-Ray-Tracer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mxy4fy\\cmTC_0b3f5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.51
+        
+      exitCode: 0
+...

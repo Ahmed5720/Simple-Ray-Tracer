@@ -10,6 +10,7 @@ C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeRCInformation.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
@@ -17,6 +18,10 @@ C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenGL.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindOpenMP.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/FindPackageMessage.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
 C:/Users/15854/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-11.0.1-r5/mingw64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
