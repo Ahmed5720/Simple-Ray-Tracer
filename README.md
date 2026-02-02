@@ -20,6 +20,8 @@ Monte Carlo ray/path tracing produces photorealistic images by simulating light 
 
 ![Ray tracing diagram: BVH pruning, caching opportunities, and early termination](media/potatoano.jpeg)
 
+A scene of a teapot depicting the raytracing algorithm. (1) Note ray 1 incoming from the camera intersects the bounding box, and penetrates two further subdivisions of the box until it hits the part of the teapot enclosed by the red box thus limiting its search space. (2) Note, the boxes are divided along the midpoint of their longest axis, however cutting planes 1,2,3,4,5 could also work and may provide a more balanced tree.
+(3) Note both rays 1,2 are cast from nearby pixels and hit the same part of the geometry, indicating an opportunity for caching. (4) Note ray 3 and 5 are both possible bounce directions from 1 or 2. 3 hits another primitive and deflects once more while 5 runs off to space, indicating an opportunity to terminate it prematurely.
 ---
 
 ## Problem Statement
